@@ -148,7 +148,7 @@ const IndexPage = () => {
           <Grid.Row>
             <Grid.Column className={classes.Confirmed}>
               <h2>
-                <Icon name="hospital outline" size="small" />
+                <Icon name="stethoscope" size="small" />
                 {summaryLoading ? (
                   loader
                 ) : (
@@ -165,7 +165,7 @@ const IndexPage = () => {
             </Grid.Column>
             <Grid.Column className={classes.Active}>
               <h2>
-                <Icon name="group" size="small" />
+                <Icon name="hospital outline" size="small" />
                 {summaryLoading ? (
                   loader
                 ) : (
@@ -182,7 +182,7 @@ const IndexPage = () => {
             </Grid.Column>
             <Grid.Column className={classes.Deaths}>
               <h2>
-                <Icon name="bed" size="small" />
+                <Icon name="frown outline" size="small" />
                 {summaryLoading ? (
                   loader
                 ) : (
@@ -199,7 +199,7 @@ const IndexPage = () => {
             </Grid.Column>
             <Grid.Column className={classes.Recovered}>
               <h2>
-                <Icon name="medkit" size="small" />
+                <Icon name="thumbs up outline" size="small" />
                 {summaryLoading ? (
                   loader
                 ) : (
