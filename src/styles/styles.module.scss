@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap');
+
+html,body,h1,h2,h3,h4,h5,p,a{
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+body {
+    background-color: #36313d;
+    color: blanchedalmond;
+}
+.Title {
+    position: relative;
+    img{
+        position: absolute;
+        margin-left: -30px;
+        margin-top: 2px;
+    };
+}
+.Summary {
+    color: #36313d;
+    .Confirmed {
+        background: indianred;
+        padding: 2%;
+    }
+    .Deaths {
+        background: #D5DBDB;
+        padding: 2%;
+    }
+    .Recovered {
+        background: #28A745;
+        padding: 2%;
+    }
+    .Active {
+        background: #FFEE58;
+        padding: 2%;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+.Hotline {
+    margin-top: 50px;
+}
+
+.Container {
+    padding: 5% 10%;
+
+}
+
+.Button {
+    button {
+    box-sizing: border-box;
+    margin: 3px!important;
+    }
+}
+
+.Status {
+    animation: blink 1.2s infinite; 
+}
+
+
+.Table {
+    max-height: 487px;
+    overflow-y: scroll;
+}
+
+.Added {
+    display: block;
+    line-height: 1;
+    font-size: 0.6em;
+}
+
+@media only screen and (max-width: 600px) {
+    .Container {
+        padding: 5% 0;
+    }
+
+    .Hotline {
+        margin-top: 15%;
+    }
+}
