@@ -230,7 +230,7 @@ const IndexPage = () => {
               <Grid.Column width={4}>
                 <a className={classes.Button} href="tel:1555">
                   <Button fluid primary>
-                    <Icon name="phone" size="small" /> 1555 | PLDT / Smart
+                    <Icon name="phone" size="small" /> 1555 | Toll-free
                   </Button>
                 </a>
                 <a  className={classes.Button} href="tel:894-26843">
