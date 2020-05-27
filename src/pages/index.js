@@ -101,6 +101,7 @@ const IndexPage = () => {
   let byCityData = cityLoading ? (
     loader
   ) : (
+    byCityData ?
     <Table striped inverted singleLine>
       <Table.Header>
         <Table.Row>
@@ -117,6 +118,8 @@ const IndexPage = () => {
         ))}
       </Table.Body>
     </Table>
+    
+    : 'Information not available right now.'
   )
 
   let newActive = newData.newConfirmed - newData.newRecovered - newData.newDeaths;
